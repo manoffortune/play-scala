@@ -1,0 +1,43 @@
+New log file opened at Wed Jun 01 15:44:41 KST 2016 by 9613@Seans-MacBook-Pro.local
+Taking next connection to: 58519
+New client attempting to connect on port: 58520-58519
+  Address = /192.168.1.203:58519
+This client on port 58520 has uuid c4a7d390-1e7a-41cf-80f9-63b6625f4343 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-c4a7d390-1e7a-41cf-80f9-63b6625f4343
+Taking next connection to: 58519
+New client attempting to connect on port: 58579-58519
+  Address = /192.168.1.203:58519
+Handshake exception on socket: 58579
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 58519
+New client attempting to connect on port: 58580-58519
+  Address = /192.168.1.203:58519
+This client on port 58580 has uuid 6fb3e5a8-0060-4e69-a3ad-cb826ab6585c configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-c4a7d390-1e7a-41cf-80f9-63b6625f4343, activator-6fb3e5a8-0060-4e69-a3ad-cb826ab6585c
+Taking next connection to: 58519
+New client attempting to connect on port: 58611-58519
+  Address = /192.168.1.203:58519
+Handshake exception on socket: 58611
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 58519
+New client attempting to connect on port: 58612-58519
+  Address = /192.168.1.203:58519
+This client on port 58612 has uuid ceb38eda-a615-4504-832b-5365b7455e4d configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-c4a7d390-1e7a-41cf-80f9-63b6625f4343, activator-6fb3e5a8-0060-4e69-a3ad-cb826ab6585c, activator-ceb38eda-a615-4504-832b-5365b7455e4d
+Taking next connection to: 58519
